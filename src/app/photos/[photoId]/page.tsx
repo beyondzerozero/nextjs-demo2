@@ -9,7 +9,7 @@ type Props = {
 export default async function Page({ params }: Props) {
   return (
     <div>
-      <h1>사진ID「{params.photoId} 상세보기</h1>
+      <h1>사진ID: {params.photoId} 상세보기</h1>
       <table className={styles.table}>
         <tbody>
           <tr>

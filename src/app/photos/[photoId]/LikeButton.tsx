@@ -8,7 +8,7 @@ export function LikeButton({ photoId }: { photoId: string }) {
         console.log(`photoId ${photoId} 가 좋아요 버튼을 누름!`);
       }}
     >
-      いいね
+      좋아요.
     </button>
   );
 }

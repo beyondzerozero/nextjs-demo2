@@ -13,7 +13,7 @@ export default async function Page({ params, searchParams }: Props) {
     <div>
       <h1>카테고리 목록</h1>
       <h2>
-        카테고리: {params.categoryName}, {page} 페이지
+        카테고리: {params.categoryName} | {page} 페이지
       </h2>
       <ul>
         <li>
@@ -32,7 +32,7 @@ export default async function Page({ params, searchParams }: Props) {
             <Link href={`/categories/${params.categoryName}?page=${page - 1}`}>
               이전
             </Link>
-          </li>
+          </li> 
         )}
         <li>
           <Link href={`/categories/${params.categoryName}?page=${page + 1}`}>
